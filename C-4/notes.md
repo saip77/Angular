@@ -64,3 +64,10 @@ my-app/
 - test.ts: This file is used for testing the application.
 - tslint.json: This file contains the configuration for the TypeScript linter.
 - yarn.lock: This file is used to lock the versions of the dependencies in the project.
+
+#### Understanding webpack
+
+Webpack is a module bundler that is used to bundle JavaScript and other assets into a single file. It is a popular tool for building web applications and is widely used in the Angular community.
+
+Webpack uses a configuration file called webpack.config.js to specify how to bundle the application's assets. The configuration file is written in JavaScript and is used to configure the webpack build process.
+
