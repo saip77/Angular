@@ -17,7 +17,7 @@
 
 > Traditional Web Apps
 
-n a traditional web application, every time a user navigates to a new page, the browser sends a request to the server, and the server sends back a new, full HTML page. This can result in a slower user experience with a noticeable delay, as the entire page needs to reload.
+In a traditional web application, every time a user navigates to a new page, the browser sends a request to the server, and the server sends back a new, full HTML page. This can result in a slower user experience with a noticeable delay, as the entire page needs to reload.
 
 > Single Page Applications (SPAs)
 
