@@ -1,5 +1,6 @@
-### Learning Roadmap
+# Learning Roadmap
 
+- Learning Roadmap
 - Basics
 - Components
 - Data Binding
