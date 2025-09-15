@@ -1,0 +1,13 @@
+<h1>String Interpolation</h1>
+{{name}}
+<br>
+<h1>Property Binding</h1>
+<button [disabled] = "disabled">Click Me</button>
+<br>
+<h1>Event Binding</h1>
+<input type="text" (input)="passValue($event)">
+<br>
+<h1>Two-way Data Binding</h1>
+<input type="text" [(ngModel)]="nameDefault">
+<br>
+{{nameDefault}}
