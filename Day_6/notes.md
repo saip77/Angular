@@ -16,3 +16,33 @@
 
 *   Attribute directives are used to add new attributes to existing elements.
 *   They are defined using the `@Directive` decorator and can be used in templates using the `[directiveName]` syntax.
+
+## Example of Directive
+
+```typescript
+// In your component.ts
+import { Directive, ElementRef, Input, OnInit } from '@angular/core';
+
+@Directive({
+  selector: '[appHighlight]'
+})
+export class HighlightDirective implements OnInit {
+  @Input() appHighlight: string;
+
+  constructor(private el: ElementRef) {}
+
+  ngOnInit() {
+    const element = this.el.nativeElement;
+    element.style.backgroundColor = this.appHighlight;
+    element.style.color = 'white';
+    element.style.padding = '10px';
+    element.style.borderRadius = '5px';
+  }
+}
+```
+
+```html
+<!-- In your component.html -->
+<p appHighlight="blue">This text will be highlighted in blue.</p>
+```
+
