@@ -10,5 +10,5 @@
 - Observables
 - Forms
 - Pipes
-- Http
+- HTTP
 - Authentication
