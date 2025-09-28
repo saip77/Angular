@@ -1,0 +1,54 @@
+/* Give the whole page a light background */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f6fa;
+  }
+  
+  /* Header bar */
+  app-header {
+    display: block;
+    background-color: #1976d2; /* blue header */
+    color: white;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  /* Sidebar + body container */
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: calc(100vh - 120px); /* full height minus header+footer */
+  }
+  
+  /* Sidebar */
+  app-sidebar {
+    display: block;
+    width: 250px;
+    background-color: #263238; /* dark sidebar */
+    color: #eee;
+    padding: 1rem;
+  }
+  
+  /* Main content area */
+  app-body {
+    display: block;
+    flex: 1;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
+  }
+  
+  /* Footer bar */
+  app-footer {
+    display: block;
+    background-color: #1976d2;
+    color: white;
+    padding: 0.75rem;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
