@@ -1,0 +1,5 @@
+<p>{{ name }}</p>  <!-- Interpolation -->
+
+<button [disabled]="isdisabled" (click)="onToggle()">Toggle</button>  <!-- Property Binding + Event Binding -->
+
+<input type="text" [(ngModel)]="name" placeholder="Enter your name">  <!-- Two-Way Binding -->
