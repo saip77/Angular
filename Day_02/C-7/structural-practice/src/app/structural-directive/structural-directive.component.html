@@ -1,0 +1,7 @@
+<p>Structural Directive example</p>
+
+<button (click)="approved(true)">Approve</button>
+<button (click)="approved(false)">Reject</button>
+
+<p *ngIf="isApproved" class="approved">This is approved</p>
+<p *ngIf="!isApproved" class="rejected">This is not approved</p>
