@@ -1,0 +1,12 @@
+<h1>String Interpolation</h1>
+<p>{{title}}</p>
+
+<h1>Property Binding</h1>
+<input type="text" [(ngModel)]="inputValue" placeholder="Type here">
+
+<h1>Event Binding</h1>
+<button 
+  (click)="onClick($event)" 
+  [disabled]="inputValue === 'submitted'">
+  Click Me
+</button>
